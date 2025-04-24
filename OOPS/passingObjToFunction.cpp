@@ -15,6 +15,7 @@ void print(Student s){
 void change(Student &s){
     s.name="Goli";
 }
+
 int main(){
     Student s1;
     s1.name="Vikash";
@@ -42,5 +43,5 @@ int main(){
     print(s1);
     change(s1);
     print(s1);
-    
+
 }
